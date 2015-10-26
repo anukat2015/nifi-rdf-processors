@@ -1,2 +1,16 @@
 # nifi-rdf-processors
-NiFi Processors to help in manipulating and transforming RDF
+An HttpClient NiFi Processor
+
+## Testing
+
+ mvn test
+
+## Building
+
+ mvn clean install
+
+## Deploying
+
+ cp target/*.nar nifi/lib/
+ nifi/bin/nifi.sh start
+
